@@ -1,9 +1,30 @@
-﻿<Window xmlns="https://github.com/avaloniaui"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        x:Class="FuehrerscheinCreator.Preview"
-        Title="Preview">
-    Welcome to Avalonia!
-</Window>
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:viewModels="clr-namespace:FuehrerscheinCreator"
+             x:Class="FuehrerscheinCreator.Preview"
+             x:DataType="viewModels:Preview"
+             Width="400"
+             Height="250">
+    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.30*"/>
+            <RowDefinition Height="0.12*"/>
+            <RowDefinition Height="0.06*"/>
+            <RowDefinition Height="0.06*"/>
+            <RowDefinition Height="0.54*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.45*"/>
+            <ColumnDefinition Width="0.25*"/>
+            <ColumnDefinition Width="0.47*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush Source="Assets/robo-schein.jpg" />
+        </Grid.Background>
+        <Label x:Name="LastNameLbl" Grid.Row="1" Grid.Column="1" Content="{Binding LastName}" FontWeight="Bold" FontSize="7"/>
+        <Label x:Name="FirstNameLbl" Grid.Row="2" Grid.Column="1" Content="{Binding FirstName}" FontWeight="Bold" FontSize="7"/>
+        <Label x:Name="BirthdayLbl" Grid.Row="3" Grid.Column="1" Content="{Binding Birthday}" FontWeight="Bold" FontSize="7"/>
+        <Label x:Name="CreatedAtLbl" Grid.Row="4" Grid.Column="1" Content="{Binding CreatedAt}" FontWeight="Bold" FontSize="7"/>
+        <Label x:Name="ExpiresAtLbl" Grid.Row="4" Grid.Column="2" Content="{Binding ExpiresAt}" FontWeight="Bold" FontSize="7"/>
+    </Grid>
+</UserControl>
