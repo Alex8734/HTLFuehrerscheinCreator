@@ -14,24 +14,27 @@
             <RowDefinition Height="0.54*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="0.45*"/>
-            <ColumnDefinition Width="0.25*"/>
+            <ColumnDefinition Width="0.20*"/>
+            <ColumnDefinition Width="0.33*"/>
+            <ColumnDefinition Width="0.35*"/>
             <ColumnDefinition Width="0.47*"/>
         </Grid.ColumnDefinitions>
         <Grid.Background>
             <ImageBrush Source="Assets/robo-schein.jpg" />
         </Grid.Background>
-        <Label x:Name="LastNameLbl" Grid.Row="1" Grid.Column="1" Content="{Binding LastName}" FontWeight="Bold" FontSize="7"/>
-        <Label x:Name="FirstNameLbl" Grid.Row="2" Grid.Column="1" Content="{Binding FirstName}" FontWeight="Bold" FontSize="7"/>
-        <Label x:Name="BirthdayLbl" Grid.Row="3" Grid.Column="1" Content="{Binding Birthday}" FontWeight="Bold" FontSize="7"/>
-        <Label x:Name="CreatedAtLbl" Grid.Row="4" Grid.Column="1" Content="{Binding CreatedAt}" FontWeight="Bold" FontSize="7"/>
-        <Label x:Name="ExpiresAtLbl" Grid.Row="4" Grid.Column="2" Content="{Binding ExpiresAt}" FontWeight="Bold" FontSize="7"/>
+        <Label x:Name="LastNameLbl" Grid.Row="1" Grid.Column="2" Content="{Binding LastName}" FontWeight="Bold" FontSize="7"/>
+        <Label x:Name="FirstNameLbl" Grid.Row="2" Grid.Column="2" Content="{Binding FirstName}" FontWeight="Bold" FontSize="7"/>
+        <Label x:Name="BirthdayLbl" Grid.Row="3" Grid.Column="2" Content="{Binding Birthday}" FontWeight="Bold" FontSize="7"/>
+        <Label x:Name="CreatedAtLbl" Grid.Row="4" Grid.Column="2" Content="{Binding CreatedAt}" FontWeight="Bold" FontSize="7"/>
+        <Label x:Name="ExpiresAtLbl" Grid.Row="4" Grid.Column="3" Content="{Binding ExpiresAt}" FontWeight="Bold" FontSize="7"/>
 		<Image
-			Grid.Row="1"
-			Grid.Column="2" 
+			Grid.Row="0"
+			Grid.Column="1"
+			Grid.ColumnSpan="2"
+			HorizontalAlignment="Center"
 			   MaxHeight="50"
 			   MaxWidth="50"
-               Source="{Binding Selected}"  
+               Source="{Binding Selected}"
 			   Width="150"
 			   Height="150"
 			   Stretch="Uniform"

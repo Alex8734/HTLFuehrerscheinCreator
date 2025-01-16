@@ -16,7 +16,7 @@ namespace FuehrerscheinCreator
             LastName = "[LastName]";
             Birthday = "[Birthday]";
 
-            Selected = new Bitmap("C:/Home/School/SYP/HTL_tadeot_roboterfuehrerschein/RoboScheinBuilder/saug.png");
+            Selected = new Bitmap("C:\\Users\\alexa\\Downloads\\34779_man_400x400.png");
         }
 
         private void InitializeComponent()
@@ -29,7 +29,7 @@ namespace FuehrerscheinCreator
 
         public string FirstName
         {
-            get => GetValue(FirstNameProperty);
+            get => string.IsNullOrWhiteSpace(GetValue(FirstNameProperty)) ? "[FirstName]" : GetValue(FirstNameProperty);
             set => SetValue(FirstNameProperty, string.IsNullOrWhiteSpace(value) ? "[FirstName]" : value);
         }
 
@@ -38,7 +38,7 @@ namespace FuehrerscheinCreator
 
         public string LastName
         {
-            get => GetValue(LastNameProperty);
+            get => string.IsNullOrWhiteSpace(GetValue(LastNameProperty)) ? "[LastName]" : GetValue(LastNameProperty);
             set => SetValue(LastNameProperty, string.IsNullOrWhiteSpace(value) ? "[LastName]" : value);
         }
 
@@ -58,7 +58,7 @@ namespace FuehrerscheinCreator
 
         public string Birthday
         {
-            get => GetValue(BirthdayProperty);
+            get => string.IsNullOrWhiteSpace(GetValue(BirthdayProperty)) ? "[BirthDay]" : GetValue(BirthdayProperty);
             set => SetValue(BirthdayProperty, string.IsNullOrWhiteSpace(value) ? "[Birthday]" : value);
         }
 
