@@ -18,7 +18,7 @@ public static class PrinterControl
 {
     public static void RenderToBmp(UserControl target, string path)
     {
-        var pixelSize = new PixelSize((int) target.Width, (int) target.Height);
+        var pixelSize = new PixelSize((int) target.Width * 2, (int) target.Height * 2);
         var size = new Size(target.Width, target.Height);
         var pos = target.Bounds.Position;
         using (RenderTargetBitmap bitmap = new RenderTargetBitmap(pixelSize, new Vector(96, 96)))

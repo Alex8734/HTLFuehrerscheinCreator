@@ -2,6 +2,7 @@
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
+using Avalonia.Media.Imaging;  // Import this namespace to work with Bitmap
 
 namespace FuehrerscheinCreator
 {
@@ -14,7 +15,10 @@ namespace FuehrerscheinCreator
             FirstName = "[FirstName]";
             LastName = "[LastName]";
             Birthday = "[Birthday]";
+
+            Selected = new Bitmap("C:/Home/School/SYP/HTL_tadeot_roboterfuehrerschein/RoboScheinBuilder/saug.png");
         }
+
         private void InitializeComponent()
         {
             AvaloniaXamlLoader.Load(this);
@@ -27,7 +31,6 @@ namespace FuehrerscheinCreator
         {
             get => GetValue(FirstNameProperty);
             set => SetValue(FirstNameProperty, string.IsNullOrWhiteSpace(value) ? "[FirstName]" : value);
-
         }
 
         public static readonly StyledProperty<string> LastNameProperty =
@@ -36,7 +39,18 @@ namespace FuehrerscheinCreator
         public string LastName
         {
             get => GetValue(LastNameProperty);
-            set => SetValue(LastNameProperty,  string.IsNullOrWhiteSpace(value) ? "[LastName]" : value);
+            set => SetValue(LastNameProperty, string.IsNullOrWhiteSpace(value) ? "[LastName]" : value);
+        }
+
+        // Change Selected to hold a Bitmap (not just a string)
+        public static readonly StyledProperty<Bitmap> SelectedProperty =
+            AvaloniaProperty.Register<Preview, Bitmap>(nameof(Selected));
+
+        // Update the Selected property to return a Bitmap
+        public Bitmap Selected
+        {
+            get => GetValue(SelectedProperty);
+            set => SetValue(SelectedProperty, value);
         }
 
         public static readonly StyledProperty<string> BirthdayProperty =
@@ -45,9 +59,10 @@ namespace FuehrerscheinCreator
         public string Birthday
         {
             get => GetValue(BirthdayProperty);
-            set => SetValue(BirthdayProperty,  string.IsNullOrWhiteSpace(value) ? "[BirthDay]" : value);
+            set => SetValue(BirthdayProperty, string.IsNullOrWhiteSpace(value) ? "[Birthday]" : value);
         }
-        public string CreatedAt =>  DateTime.Now.ToString("dd.MM.yyyy");
+
+        public string CreatedAt => DateTime.Now.ToString("dd.MM.yyyy");
         public string ExpiresAt => DateTime.Now.AddYears(4).ToString("dd.MM.yyyy");
     }
 }

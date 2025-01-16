@@ -26,5 +26,15 @@
         <Label x:Name="BirthdayLbl" Grid.Row="3" Grid.Column="1" Content="{Binding Birthday}" FontWeight="Bold" FontSize="7"/>
         <Label x:Name="CreatedAtLbl" Grid.Row="4" Grid.Column="1" Content="{Binding CreatedAt}" FontWeight="Bold" FontSize="7"/>
         <Label x:Name="ExpiresAtLbl" Grid.Row="4" Grid.Column="2" Content="{Binding ExpiresAt}" FontWeight="Bold" FontSize="7"/>
-    </Grid>
+		<Image
+			Grid.Row="1"
+			Grid.Column="2" 
+			   MaxHeight="50"
+			   MaxWidth="50"
+               Source="{Binding Selected}"  
+			   Width="150"
+			   Height="150"
+			   Stretch="Uniform"
+			   Margin="5" />
+	</Grid>
 </UserControl>
