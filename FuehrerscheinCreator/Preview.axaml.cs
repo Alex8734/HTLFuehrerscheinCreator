@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
@@ -16,7 +17,8 @@ namespace FuehrerscheinCreator
             LastName = "[LastName]";
             Birthday = "[Birthday]";
 
-            Selected = new Bitmap("C:/Home/School/SYP/HTL_tadeot_roboterfuehrerschein/RoboScheinBuilder/saug.png");
+            Selected = new Bitmap("Assets/profile.png");
+        
         }
 
         private void InitializeComponent()

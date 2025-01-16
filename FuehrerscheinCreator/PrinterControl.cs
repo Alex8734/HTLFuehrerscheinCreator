@@ -11,6 +11,7 @@ using MsBox.Avalonia.Enums;
 using MsBox.Avalonia.Models;
 using Image = System.Drawing.Image;
 using Size = Avalonia.Size;
+using System;
 
 namespace FuehrerscheinCreator;
 
@@ -18,16 +19,25 @@ public static class PrinterControl
 {
     public static void RenderToBmp(UserControl target, string path)
     {
-        var pixelSize = new PixelSize((int) target.Width * 2, (int) target.Height * 2);
-        var size = new Size(target.Width, target.Height);
-        var pos = target.Bounds.Position;
-        using (RenderTargetBitmap bitmap = new RenderTargetBitmap(pixelSize, new Vector(96, 96)))
+        // Get the DPI settings of the target device
+        using (Graphics g = Graphics.FromHwnd(IntPtr.Zero))
         {
-            target.Measure(size);
-            target.Arrange(new Rect(size));
-            bitmap.Render(target);
-            bitmap.Save(path);
-            target.Arrange(new Rect(pos, size));
+            var dpiX = g.DpiX;
+            var dpiY = g.DpiY;
+
+            // Adjust the pixel size based on the DPI settings
+            var pixelSize = new PixelSize((int)(target.Width * 2 * dpiX / 96), (int)(target.Height * 2 * dpiY / 96));
+            var size = new Size(target.Width, target.Height);
+            var pos = target.Bounds.Position;
+
+            using (RenderTargetBitmap bitmap = new RenderTargetBitmap(pixelSize, new Vector(dpiX, dpiY)))
+            {
+                target.Measure(size);
+                target.Arrange(new Rect(size));
+                bitmap.Render(target);
+                bitmap.Save(path);
+                target.Arrange(new Rect(pos, size));
+            }
         }
     }
 
@@ -40,8 +50,8 @@ public static class PrinterControl
             using Image img = Image.FromFile(path);
 
             // Credit card size in pixels at 96 DPI
-            int cardWidth = (int)(85.60 * 3.78);
-            int cardHeight = (int)(53.98 * 3.78);
+            int cardWidth = (int)(85.60 * 2 * 3.78);
+            int cardHeight = (int)(53.98 * 2* 3.78);
 
             // Position the image at the top left corner
             int x = 0;

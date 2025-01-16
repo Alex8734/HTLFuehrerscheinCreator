@@ -3,40 +3,24 @@
   "WorkspaceRootPath": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|c:\\home\\school\\syp\\htlfuehrerscheincreator\\fuehrerscheincreator\\preview.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|solutionrelative:fuehrerscheincreator\\preview.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|c:\\home\\school\\syp\\htlfuehrerscheincreator\\fuehrerscheincreator\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|solutionrelative:fuehrerscheincreator\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|c:\\home\\school\\syp\\htlfuehrerscheincreator\\fuehrerscheincreator\\printercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|solutionrelative:fuehrerscheincreator\\printercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|c:\\home\\school\\syp\\htlfuehrerscheincreator\\fuehrerscheincreator\\preview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|solutionrelative:fuehrerscheincreator\\preview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|c:\\home\\school\\syp\\htlfuehrerscheincreator\\fuehrerscheincreator\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|solutionrelative:fuehrerscheincreator\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|c:\\home\\school\\syp\\htlfuehrerscheincreator\\fuehrerscheincreator\\preview.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|solutionrelative:fuehrerscheincreator\\preview.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|c:\\home\\school\\syp\\htlfuehrerscheincreator\\fuehrerscheincreator\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|solutionrelative:fuehrerscheincreator\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|c:\\home\\school\\syp\\htlfuehrerscheincreator\\fuehrerscheincreator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|solutionrelative:fuehrerscheincreator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|c:\\home\\school\\syp\\htlfuehrerscheincreator\\fuehrerscheincreator\\printercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|solutionrelative:fuehrerscheincreator\\printercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|c:\\home\\school\\syp\\htlfuehrerscheincreator\\fuehrerscheincreator\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|solutionrelative:fuehrerscheincreator\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|c:\\home\\school\\syp\\htlfuehrerscheincreator\\fuehrerscheincreator\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|solutionrelative:fuehrerscheincreator\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|c:\\home\\school\\syp\\htlfuehrerscheincreator\\fuehrerscheincreator\\viewmodels\\previewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,8 +31,24 @@
       "RelativeMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|solutionrelative:fuehrerscheincreator\\app.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|c:\\home\\school\\syp\\htlfuehrerscheincreator\\fuehrerscheincreator\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|solutionrelative:fuehrerscheincreator\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|c:\\home\\school\\syp\\htlfuehrerscheincreator\\fuehrerscheincreator\\fontsizeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|solutionrelative:fuehrerscheincreator\\fontsizeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|c:\\home\\school\\syp\\htlfuehrerscheincreator\\fuehrerscheincreator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|solutionrelative:fuehrerscheincreator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|c:\\home\\school\\syp\\htlfuehrerscheincreator\\fuehrerscheincreator\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|solutionrelative:fuehrerscheincreator\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|c:\\home\\school\\syp\\htlfuehrerscheincreator\\fuehrerscheincreator\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|solutionrelative:fuehrerscheincreator\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|c:\\home\\school\\syp\\htlfuehrerscheincreator\\fuehrerscheincreator\\assets\\robo-schein.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
@@ -66,85 +66,33 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "FuehrerscheinCreator\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "FuehrerscheinCreator\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T10:20:03.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.axaml.cs",
-              "DocumentMoniker": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\App.axaml.cs",
-              "RelativeDocumentMoniker": "FuehrerscheinCreator\\App.axaml.cs",
-              "ToolTip": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\App.axaml.cs",
-              "RelativeToolTip": "FuehrerscheinCreator\\App.axaml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBUAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T10:24:04.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Preview.axaml.cs",
               "DocumentMoniker": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\Preview.axaml.cs",
               "RelativeDocumentMoniker": "FuehrerscheinCreator\\Preview.axaml.cs",
               "ToolTip": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\Preview.axaml.cs",
               "RelativeToolTip": "FuehrerscheinCreator\\Preview.axaml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T10:24:11.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Preview.axaml",
               "DocumentMoniker": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\Preview.axaml",
               "RelativeDocumentMoniker": "FuehrerscheinCreator\\Preview.axaml",
               "ToolTip": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\Preview.axaml",
               "RelativeToolTip": "FuehrerscheinCreator\\Preview.axaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwCoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-01-16T10:26:39.04Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\MainWindow.axaml.cs",
-              "RelativeDocumentMoniker": "FuehrerscheinCreator\\MainWindow.axaml.cs",
-              "ToolTip": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\MainWindow.axaml.cs",
-              "RelativeToolTip": "FuehrerscheinCreator\\MainWindow.axaml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAowDoAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T10:24:06.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "app.manifest",
-              "DocumentMoniker": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\app.manifest",
-              "RelativeDocumentMoniker": "FuehrerscheinCreator\\app.manifest",
-              "ToolTip": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\app.manifest",
-              "RelativeToolTip": "FuehrerscheinCreator\\app.manifest",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
-              "WhenOpened": "2025-01-16T10:43:33.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "MainWindow.axaml",
               "DocumentMoniker": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\MainWindow.axaml",
               "RelativeDocumentMoniker": "FuehrerscheinCreator\\MainWindow.axaml",
@@ -157,33 +105,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\Program.cs",
-              "RelativeDocumentMoniker": "FuehrerscheinCreator\\Program.cs",
-              "ToolTip": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\Program.cs",
-              "RelativeToolTip": "FuehrerscheinCreator\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T10:25:21.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "PrinterControl.cs",
               "DocumentMoniker": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\PrinterControl.cs",
               "RelativeDocumentMoniker": "FuehrerscheinCreator\\PrinterControl.cs",
               "ToolTip": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\PrinterControl.cs",
               "RelativeToolTip": "FuehrerscheinCreator\\PrinterControl.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwEMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T10:24:14.646Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "FuehrerscheinCreator\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "FuehrerscheinCreator\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:20:03.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PreviewViewModel.cs",
               "DocumentMoniker": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\ViewModels\\PreviewViewModel.cs",
               "RelativeDocumentMoniker": "FuehrerscheinCreator\\ViewModels\\PreviewViewModel.cs",
@@ -196,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "App.axaml",
               "DocumentMoniker": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\App.axaml",
               "RelativeDocumentMoniker": "FuehrerscheinCreator\\App.axaml",
@@ -209,7 +157,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\app.manifest",
+              "RelativeDocumentMoniker": "FuehrerscheinCreator\\app.manifest",
+              "ToolTip": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\app.manifest",
+              "RelativeToolTip": "FuehrerscheinCreator\\app.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2025-01-16T10:43:33.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "FontSizeConverter.cs",
               "DocumentMoniker": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\FontSizeConverter.cs",
               "RelativeDocumentMoniker": "FuehrerscheinCreator\\FontSizeConverter.cs",
@@ -222,6 +183,43 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\Program.cs",
+              "RelativeDocumentMoniker": "FuehrerscheinCreator\\Program.cs",
+              "ToolTip": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\Program.cs",
+              "RelativeToolTip": "FuehrerscheinCreator\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:25:21.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "FuehrerscheinCreator\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\MainWindow.axaml.cs",
+              "RelativeToolTip": "FuehrerscheinCreator\\MainWindow.axaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowDoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:24:06.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.axaml.cs",
+              "DocumentMoniker": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\App.axaml.cs",
+              "RelativeDocumentMoniker": "FuehrerscheinCreator\\App.axaml.cs",
+              "ToolTip": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\App.axaml.cs",
+              "RelativeToolTip": "FuehrerscheinCreator\\App.axaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:24:04.6Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
               "Title": "robo-schein.jpg",
               "DocumentMoniker": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\Assets\\robo-schein.jpg",
@@ -229,8 +227,7 @@
               "ToolTip": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\Assets\\robo-schein.jpg",
               "RelativeToolTip": "FuehrerscheinCreator\\Assets\\robo-schein.jpg",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-01-16T10:24:43.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T10:24:43.162Z"
             }
           ]
         }
