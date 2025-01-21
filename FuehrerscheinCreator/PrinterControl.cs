@@ -52,7 +52,7 @@ public static class PrinterControl
             int y = 0;
 
             // Draw the image
-            e.Graphics.DrawImage(img, x, y, img.Width+50, img.Height+50);
+            e.Graphics.DrawImage(img, x, y, img.Width-20, img.Height-20);
         };
         var printers = PrinterSettings.InstalledPrinters;
         if (printers.Count == 0)
