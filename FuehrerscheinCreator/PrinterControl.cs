@@ -9,6 +9,7 @@ using MsBox.Avalonia;
 using MsBox.Avalonia.Dto;
 using MsBox.Avalonia.Enums;
 using MsBox.Avalonia.Models;
+using Bitmap = Avalonia.Media.Imaging.Bitmap;
 using Image = System.Drawing.Image;
 using Size = Avalonia.Size;
 
@@ -16,19 +17,23 @@ namespace FuehrerscheinCreator;
 
 public static class PrinterControl
 {
-    public static void RenderToBmp(UserControl target, string path)
+    public static Bitmap RenderToBmp(UserControl target, string path)
     {
         var pixelSize = new PixelSize((int) target.Width , (int) target.Height );
         var size = new Size(target.Width, target.Height);
         var pos = target.Bounds.Position;
-        using (RenderTargetBitmap bitmap = new RenderTargetBitmap(pixelSize, new Vector(96, 96)))
+        Bitmap bpm;
+        using (RenderTargetBitmap bitmap = new RenderTargetBitmap(pixelSize, new Vector(90, 90)))
         {
             target.Measure(size);
             target.Arrange(new Rect(size));
             bitmap.Render(target);
             bitmap.Save(path);
             target.Arrange(new Rect(pos, size));
+            bpm = bitmap;
         }
+
+        return bpm;
     }
 
     public static async Task Print(string path, string printerName)
@@ -39,16 +44,15 @@ public static class PrinterControl
         {
             using Image img = Image.FromFile(path);
 
+
             // Credit card size in pixels at 96 DPI
-            int cardWidth = (int)(85.60 * 3.78) ;
-            int cardHeight = (int)(53.98 * 3.78) ;
 
             // Position the image at the top left corner
             int x = 0;
             int y = 0;
 
             // Draw the image
-            e.Graphics.DrawImage(img, x, y, cardWidth, cardHeight);
+            e.Graphics.DrawImage(img, x, y, img.Width+50, img.Height+50);
         };
         var printers = PrinterSettings.InstalledPrinters;
         if (printers.Count == 0)
