@@ -28,5 +28,8 @@
       <AvaloniaResource Include="Assets\robo-schein.jpg">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </AvaloniaResource>
+      <None Update="Assets\34779_man_400x400.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 </Project>

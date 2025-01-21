@@ -18,7 +18,7 @@ public static class PrinterControl
 {
     public static void RenderToBmp(UserControl target, string path)
     {
-        var pixelSize = new PixelSize((int) target.Width * 2, (int) target.Height * 2);
+        var pixelSize = new PixelSize((int) target.Width , (int) target.Height );
         var size = new Size(target.Width, target.Height);
         var pos = target.Bounds.Position;
         using (RenderTargetBitmap bitmap = new RenderTargetBitmap(pixelSize, new Vector(96, 96)))
@@ -40,8 +40,8 @@ public static class PrinterControl
             using Image img = Image.FromFile(path);
 
             // Credit card size in pixels at 96 DPI
-            int cardWidth = (int)(85.60 * 3.78);
-            int cardHeight = (int)(53.98 * 3.78);
+            int cardWidth = (int)(85.60 * 3.78) ;
+            int cardHeight = (int)(53.98 * 3.78) ;
 
             // Position the image at the top left corner
             int x = 0;

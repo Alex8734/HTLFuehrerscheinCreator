@@ -1,3 +1,4 @@
+using System;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
@@ -22,6 +23,7 @@ public partial class MainWindow : Window
         AvaloniaXamlLoader.Load(this);
     }
 
+    [Obsolete("Obsolete")]
     private async void OnAddImageClick(object sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
         var openFileDialog = new OpenFileDialog
