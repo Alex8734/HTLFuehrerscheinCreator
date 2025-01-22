@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel;
 using Avalonia;
 using Avalonia.Controls;
@@ -55,27 +54,36 @@ public static class PrinterControl
     {
         using PrintDocument pd = new PrintDocument();
 
+        PrinterResolution highestResolution = null;
+        foreach (PrinterResolution resolution in pd.PrinterSettings.PrinterResolutions)
+        {
+            if (highestResolution == null || resolution.X > highestResolution.X || resolution.Y > highestResolution.Y)
+            {
+                highestResolution = resolution;
+            }
+        }
+
+        if (highestResolution == null)
+        {
+            var box = MessageBoxManager
+                .GetMessageBoxStandard("Caption", "No supported printer resolutions found", ButtonEnum.YesNo);
+
+            var result = await box.ShowAsync();
+            return;
+        }
+
+        pd.DefaultPageSettings.PrinterResolution = highestResolution;
 
         pd.PrintPage += (sender, e) =>
         {
             using Image img = Image.FromFile(path);
-            // Get the printable area
-            var printableArea = e.PageBounds;
-            var marginBounds = e.MarginBounds;
 
-            // Calculate the scaling factor to fit the image within the printable area
-            float scale = Math.Min((float)marginBounds.Width / img.Width, (float)marginBounds.Height / img.Height);
-
-            // Calculate the scaled width and height
-            int scaledWidth = (int)(img.Width * scale);
-            int scaledHeight = (int)(img.Height * scale);
-
-            // Calculate the position to center the image
-            int posX = marginBounds.Left + (marginBounds.Width - scaledWidth) / 2;
-            int posY = marginBounds.Top + (marginBounds.Height - scaledHeight) / 2;
+            int cardWidth = (int)(85.60  * 3.78);
+            int cardHeight = (int)(53.98 * 3.78);
+            img.Save("test.bmp");
 
             // Draw the image
-            e.Graphics.DrawImage(img, posX, posY, scaledWidth, scaledHeight);
+            e.Graphics.DrawImage(img,0,0,cardWidth,cardHeight);
 
         };
         var printers = PrinterSettings.InstalledPrinters;
