@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Media.Imaging;
@@ -45,15 +46,10 @@ public static class PrinterControl
             using Image img = Image.FromFile(path);
 
 
-            // Credit card size in pixels at 96 DPI
-
-            // Position the image at the top left corner
-            int x = 0;
-            int y = 0;
-
             // Draw the image
-            e.Graphics.DrawImage(img, x, y, img.Width-20, img.Height-20);
+            e.Graphics.DrawImage(img, 0, 0);
         };
+
         var printers = PrinterSettings.InstalledPrinters;
         if (printers.Count == 0)
         {
@@ -69,8 +65,8 @@ public static class PrinterControl
         {
             ButtonDefinitions = new List<ButtonDefinition>
             {
-                new() {Name = "Print", IsDefault = true },
-                new() {Name = "Cancel", IsCancel = true}
+                new() { Name = "Print", IsDefault = true },
+                new() { Name = "Cancel", IsCancel = true }
             },
             ContentTitle = "Print",
             ContentMessage = "You want to print?",
@@ -84,6 +80,7 @@ public static class PrinterControl
         {
             return;
         }
+
         pd.PrinterSettings = new PrinterSettings
         {
             PrinterName = printerName,
