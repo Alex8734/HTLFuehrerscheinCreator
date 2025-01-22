@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Media.Imaging;
@@ -12,6 +11,7 @@ using MsBox.Avalonia.Enums;
 using MsBox.Avalonia.Models;
 using Bitmap = Avalonia.Media.Imaging.Bitmap;
 using Image = System.Drawing.Image;
+using Point = System.Drawing.Point;
 using Size = Avalonia.Size;
 
 namespace FuehrerscheinCreator;
@@ -46,10 +46,15 @@ public static class PrinterControl
             using Image img = Image.FromFile(path);
 
 
-            // Draw the image
-            e.Graphics.DrawImage(img, 0, 0);
-        };
+            // Credit card size in pixels at 96 DPI
 
+            // Position the image at the top left corner
+            int x = 0;
+            int y = 0;
+
+            // Draw the image
+            e.Graphics.DrawImageUnscaledAndClipped(img,new Rectangle(new Point(0,0), new System.Drawing.Size(img.Width,img.Height)));
+        };
         var printers = PrinterSettings.InstalledPrinters;
         if (printers.Count == 0)
         {
@@ -65,8 +70,8 @@ public static class PrinterControl
         {
             ButtonDefinitions = new List<ButtonDefinition>
             {
-                new() { Name = "Print", IsDefault = true },
-                new() { Name = "Cancel", IsCancel = true }
+                new() {Name = "Print", IsDefault = true },
+                new() {Name = "Cancel", IsCancel = true}
             },
             ContentTitle = "Print",
             ContentMessage = "You want to print?",
@@ -80,7 +85,6 @@ public static class PrinterControl
         {
             return;
         }
-
         pd.PrinterSettings = new PrinterSettings
         {
             PrinterName = printerName,
