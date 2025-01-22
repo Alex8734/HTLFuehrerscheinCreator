@@ -59,8 +59,11 @@ public static class PrinterControl
         {
             using Image img = Image.FromFile(path);
 
+            int cardWidth = (int)(85.60  * 3.78);
+            int cardHeight = (int)(53.98 * 3.78);
+
             // Draw the image
-            e.Graphics.DrawImage(img,0,0);
+            e.Graphics.DrawImage(img,0,0,cardWidth,cardHeight);
 
         };
         var printers = PrinterSettings.InstalledPrinters;
