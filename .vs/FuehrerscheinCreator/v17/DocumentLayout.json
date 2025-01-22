@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|solutionrelative:fuehrerscheincreator\\printercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|c:\\home\\school\\syp\\htlfuehrerscheincreator\\fuehrerscheincreator\\preview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|solutionrelative:fuehrerscheincreator\\preview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|c:\\home\\school\\syp\\htlfuehrerscheincreator\\fuehrerscheincreator\\preview.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|solutionrelative:fuehrerscheincreator\\preview.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|c:\\home\\school\\syp\\htlfuehrerscheincreator\\fuehrerscheincreator\\preview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|solutionrelative:fuehrerscheincreator\\preview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{862C4C0C-8F74-4D13-B0D8-271824CFEFED}|FuehrerscheinCreator\\FuehrerscheinCreator.csproj|c:\\home\\school\\syp\\htlfuehrerscheincreator\\fuehrerscheincreator\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -66,7 +66,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Preview.axaml.cs",
               "DocumentMoniker": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\Preview.axaml.cs",
               "RelativeDocumentMoniker": "FuehrerscheinCreator\\Preview.axaml.cs",
@@ -74,12 +74,11 @@
               "RelativeToolTip": "FuehrerscheinCreator\\Preview.axaml.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T10:24:11.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T10:24:11.53Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Preview.axaml",
               "DocumentMoniker": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\Preview.axaml",
               "RelativeDocumentMoniker": "FuehrerscheinCreator\\Preview.axaml",
@@ -100,8 +99,7 @@
               "RelativeToolTip": "FuehrerscheinCreator\\MainWindow.axaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-01-16T10:25:32.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T10:25:32.771Z"
             },
             {
               "$type": "Document",
@@ -111,7 +109,7 @@
               "RelativeDocumentMoniker": "FuehrerscheinCreator\\PrinterControl.cs",
               "ToolTip": "C:\\Home\\School\\SYP\\HTLFuehrerscheinCreator\\FuehrerscheinCreator\\PrinterControl.cs",
               "RelativeToolTip": "FuehrerscheinCreator\\PrinterControl.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAYwEMAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAmwGIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T10:24:14.646Z",
               "EditorCaption": ""
@@ -126,8 +124,7 @@
               "RelativeToolTip": "FuehrerscheinCreator\\ViewModels\\MainViewModel.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T10:20:03.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T10:20:03.263Z"
             },
             {
               "$type": "Document",
@@ -139,8 +136,7 @@
               "RelativeToolTip": "FuehrerscheinCreator\\ViewModels\\PreviewViewModel.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T10:24:46.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T10:24:46.954Z"
             },
             {
               "$type": "Document",
@@ -152,8 +148,7 @@
               "RelativeToolTip": "FuehrerscheinCreator\\App.axaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-01-16T10:24:49.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T10:24:49.841Z"
             },
             {
               "$type": "Document",
@@ -165,8 +160,7 @@
               "RelativeToolTip": "FuehrerscheinCreator\\app.manifest",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
-              "WhenOpened": "2025-01-16T10:43:33.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T10:43:33.955Z"
             },
             {
               "$type": "Document",
@@ -178,8 +172,7 @@
               "RelativeToolTip": "FuehrerscheinCreator\\FontSizeConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T10:52:11.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T10:52:11.061Z"
             },
             {
               "$type": "Document",
@@ -191,8 +184,7 @@
               "RelativeToolTip": "FuehrerscheinCreator\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T10:25:21.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T10:25:21.805Z"
             },
             {
               "$type": "Document",
