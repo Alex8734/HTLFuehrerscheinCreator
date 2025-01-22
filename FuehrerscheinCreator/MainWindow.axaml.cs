@@ -60,7 +60,7 @@ public partial class MainWindow : Window
             var result = await box.ShowAsync();
             return;
         }
-        PrinterControl.RenderToBmp(preview, "Fuehrerschein.bmp");
+        PrinterControl.RenderToBmp(preview, "Fuehrerschein.bmp", 90);
         PrinterControl.Print("Fuehrerschein.bmp", (DataContext as MainViewModel)?.SelectedPrinter);
 
     }

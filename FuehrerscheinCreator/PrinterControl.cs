@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Media.Imaging;
@@ -18,42 +19,49 @@ namespace FuehrerscheinCreator;
 
 public static class PrinterControl
 {
-    public static Bitmap RenderToBmp(UserControl target, string path)
+    public static Bitmap RenderToBmp(UserControl target, string path, double dpi)
     {
-        var pixelSize = new PixelSize((int) target.Width , (int) target.Height );
+        // Convert width and height to pixels based on DPI
+        var pixelWidth = (int)(target.Width * dpi / 96.0);
+        var pixelHeight = (int)(target.Height * dpi / 96.0);
+
+        var pixelSize = new PixelSize(pixelWidth, pixelHeight);
         var size = new Size(target.Width, target.Height);
-        var pos = target.Bounds.Position;
-        Bitmap bpm;
-        using (RenderTargetBitmap bitmap = new RenderTargetBitmap(pixelSize, new Vector(90, 90)))
+        var originalBounds = target.Bounds;
+
+        Bitmap resultBitmap;
+
+        using (var bitmap = new RenderTargetBitmap(pixelSize, new Vector(dpi, dpi)))
         {
+            // Prepare the target for rendering
             target.Measure(size);
             target.Arrange(new Rect(size));
+
+            // Render to the bitmap
             bitmap.Render(target);
-            bitmap.Save(path);
-            target.Arrange(new Rect(pos, size));
-            bpm = bitmap;
+            bitmap.Save(path); // Save to the specified path
+            resultBitmap = bitmap;
+            // Create a copy to return
         }
 
-        return bpm;
+        // Restore original bounds
+        target.Arrange(originalBounds);
+
+        return resultBitmap;
     }
 
     public static async Task Print(string path, string printerName)
     {
         using PrintDocument pd = new PrintDocument();
 
+
         pd.PrintPage += (sender, e) =>
         {
             using Image img = Image.FromFile(path);
 
-
-            // Credit card size in pixels at 96 DPI
-
-            // Position the image at the top left corner
-            int x = 0;
-            int y = 0;
-
             // Draw the image
-            e.Graphics.DrawImageUnscaledAndClipped(img,new Rectangle(new Point(0,0), new System.Drawing.Size(img.Width,img.Height)));
+            e.Graphics.DrawImage(img,0,0);
+
         };
         var printers = PrinterSettings.InstalledPrinters;
         if (printers.Count == 0)
