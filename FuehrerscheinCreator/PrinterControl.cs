@@ -80,7 +80,6 @@ public static class PrinterControl
 
             int cardWidth = (int)(85.60  * 3.78);
             int cardHeight = (int)(53.98 * 3.78);
-            img.Save("test.bmp");
 
             // Draw the image
             e.Graphics.DrawImage(img,0,0,cardWidth,cardHeight);

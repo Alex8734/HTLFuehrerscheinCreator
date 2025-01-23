@@ -16,7 +16,7 @@ namespace FuehrerscheinCreator
             LastName = "[LastName]";
             Birthday = "[Birthday]";
 
-            Selected = new Bitmap("Assets\\34779_man_400x400.png");
+            Selected = new Bitmap("Assets\\Visitor_0001.png");
         }
 
         private void InitializeComponent()

@@ -28,7 +28,11 @@
       <AvaloniaResource Include="Assets\robo-schein.jpg">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </AvaloniaResource>
-      <None Update="Assets\34779_man_400x400.png">
+      <None Remove="Assets\robo-scheinV2.jpg" />
+      <AvaloniaResource Include="Assets\robo-scheinV2.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </AvaloniaResource>
+      <None Update="Assets\Visitor_0001.png">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
     </ItemGroup>
